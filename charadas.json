@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "title": "Tecnologia da Informação",
+        "description": "A categoria possui palavras como computador, aplicativo e sistema.",
+        "words": ["Computador", "Programação", "Smartphone"]
+    }
+]
