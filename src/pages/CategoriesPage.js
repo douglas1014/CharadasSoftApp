@@ -15,7 +15,7 @@ const CategoriesPage = props => (
             renderItem={({ item, index }) => (
                     <CategorieCard
                         categorie={item}
-                        // onNavigate={() => props.navigation.navigate('CategorieDetail', { categorie: item })}
+                        onNavigate={() => props.navigation.navigate('GamePage', { categorie: item })}
                     />
             )}
             keyExtractor={item => item.title}

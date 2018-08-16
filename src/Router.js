@@ -2,6 +2,8 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 import CategoriesPage from './pages/CategoriesPage';
+import GamePage from './pages/GamePage';
+
 
 export default createStackNavigator({
     'Main': {
@@ -32,4 +34,10 @@ export default createStackNavigator({
           }
       } */
     },
+    'GamePage': {
+        screen: GamePage,
+        navigationOptions: {
+            headerTransparent: true,
+        }
+    }
 });
